@@ -5,7 +5,7 @@
   }
   
   body {
-    background-image: url('/img/sparkle.gif') ;
+    background-image: url('../img/sparkle.gif') ;
     background-size:auto;
     background-repeat: repeat;
   }
