@@ -1,0 +1,168 @@
+/* astrid should be at the very top and is the styling for the entire page */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-image: url('/img/tmp\ \(2\).gif') ;
+    background-size: cover;
+    background-repeat: repeat;
+  }
+  
+  
+  #nav{
+    background-color: rgb(15, 239, 222);
+    font-family: 'Satisfy', cursive;
+    height: 4rem;
+  }
+  
+  .navbar-brand{
+    /* background-color: rgb(230, 239, 2);
+    border-radius: 0.2rem; */
+    font-size: 2rem;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  #nav a {
+    color: rgb(144, 20, 170);
+    text-decoration: none;
+  }
+  
+  #nav  a:hover{
+    color: rgb(1, 223, 5);
+  }
+  
+  #main{
+    background-color: rgb(230, 239, 2);
+    color: rgb(230, 239, 2);
+    height: 25rem;
+    overflow-y: scroll; 
+    border: 6px dotted rgb(1, 223, 5);
+  }
+  
+  .img-thumbnail{
+    background-color: rgb(255, 0, 200);
+    border-color: rgb(15, 239, 222);
+    justify-content: flex-start;
+  }
+  
+  #rainbow{
+    background-color: black;
+  }
+  
+  #main a{
+    color: rgb(1, 223, 5);
+  }
+  
+  #main a:hover{
+    color: rgb(255, 0, 200);
+  }
+  
+  h1{
+    font-family: 'Mochiy Pop One', sans-serif;
+  }
+  
+  p{
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  #main-right{
+    background-color: rgb(1, 223, 5);
+    overflow-y: scroll; 
+    height: 45rem;
+    border: 6px dotted rgb(255, 0, 200);
+}
+
+#card{
+    
+    background-color: aqua;
+}
+/* #card-picture{
+    height: 0rem;
+    width: 12rem;
+} */
+  
+  
+  
+  footer .fab {
+    color:  rgb(0, 208, 175);
+  
+  }
+  footer .fab:hover{
+    color: rgb(1, 223, 5);
+  }
+  
+  a:-webkit-any-link {
+    color: none;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  #leftcolumn {
+    font-family: 'Orbitron', sans-serif;
+    height: 210px;
+    background-color: rgb(255, 0, 200);
+  }
+  
+  #leftcolumn a{
+    color: rgb(0, 208, 175);
+  }
+  
+  #leftcolumn a:hover{
+    color: rgb(1, 223, 5);
+  }
+  
+  #rightcolumn {
+    font-family: 'Orbitron', sans-serif;
+    height: 210px;
+    background-color: rgb(255, 0, 200);
+  }
+  
+  #footertwo {
+    font-family: 'Orbitron', sans-serif;
+    background-color: rgb(255, 0, 200);
+  }
+  
+  /* breakpoints */
+   /* Small devices (landscape phones, 576px and up) */
+    @media only screen and (min-width: 390px) {
+    #carousel{
+  
+      width: 10%;
+      height: 10%;
+    }
+  }
+    
+     /* Medium devices (tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+        #carousel{
+  
+        width: 10%;
+        height: 10%;
+    }
+  }
+    
+     /* Large devices (desktops, 992px and up) */
+    /* @media only screen and (min-width: 992px) {
+      body {
+        background-color: green;
+      }
+    
+    } */
+    
+     /* X-Large devices (large desktops, 1200px and up) */
+    /* @media only screen and (min-width: 1200px) {
+      body {
+        background-color: blue;
+      }
+    
+    } */
+    
+     /* XX-Large devices (larger desktops, 1400px and up) */
+    /* @media only screen and (min-width: 1400px) {
+      body {
+        background-color: gold;
+      }
+    } */
