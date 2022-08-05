@@ -9,7 +9,10 @@
     background-size:auto;
     background-repeat: repeat;
   }
-  
+
+  #logo {
+    padding: 0px;
+  }
   
   #nav{
     background-color: rgb(15, 239, 222);
@@ -115,6 +118,7 @@
     font-family: 'Orbitron', sans-serif;
     background-color: rgb(255, 0, 200);
   }
+  
   
   /* breakpoints */
    /* Small devices (landscape phones, 576px and up) */

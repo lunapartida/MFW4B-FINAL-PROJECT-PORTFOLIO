@@ -10,6 +10,9 @@ body {
   background-repeat: repeat;
 }
 
+#logo {
+  padding: 0px;
+}
 
 #nav{
   background-color: rgb(15, 239, 222);
@@ -118,22 +121,22 @@ a:-webkit-any-link {
 
 /* breakpoints */
  /* Small devices (landscape phones, 576px and up) */
-  @media only screen and (min-width: 390px) {
+  /* @media only screen and (min-width: 390px) {
   #carousel{
 
     width: 10%;
     height: 10%;
   }
-}
+} */
   
    /* Medium devices (tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
+  /* @media only screen and (min-width: 768px) {
       #carousel{
 
       width: 10%;
       height: 10%;
   }
-}
+} */
   
    /* Large devices (desktops, 992px and up) */
   /* @media only screen and (min-width: 992px) {
